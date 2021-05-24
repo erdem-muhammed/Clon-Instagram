@@ -4,6 +4,11 @@
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 	font-size: 14px;
 }
+:root
+{
+    --primary: #fffdfc;	
+	--border: #dbdbdb;
+}
 body
 {
 	margin: 0;
@@ -19,15 +24,25 @@ body
 	height: 800px;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 300px;
 }
 .left
 {
 	width: 50%;
 	height: 80%;
 }
+.left img
+{
+	height: 550px;
+}
+.gesamtBox
+{
+	height: 90%;
+	margin: 20px 0 0 20px;
+}
 .right
 {
-	width: 50%;
+	width: 100%;
 	height: 50%;
 	display: flex;
 	flex-direction: column;
@@ -35,7 +50,7 @@ body
 	align-items: center;
     padding: 20px 20px 10px 20px;
     border: 1px solid #dbdbdb;
-    background-color: rgba(var(--d87,255,255,255),1);
+    background-color: var(--primary);
     border-radius: 1px;
     margin-bottom: 20px;
 }
@@ -54,7 +69,7 @@ body
 	border-radius: 3px;
 	outline: none;
 	margin-bottom: 10px;
-	border: 1px solid #dbdbdb;
+	border: 1px solid var(--border);
 	background: rgba(var(--b3f,250,250,250),1);
 }
 .right input:focus
@@ -72,7 +87,7 @@ body
 	outline: none;
 	color: white;
 	font-weight: bold;
-    border: 1px solid #dbdbdb;
+    border: 1px solid var(--border);
 }
 .right button:hover
 {
@@ -125,35 +140,41 @@ body
 }
 .signup
 {
-	width: 50%;
+	width: 100%;
 	height: 50px;
-	background-color: background: rgba(var(--b3f,250,250,250),1);
-	text-align: center;
+	background-color: var(--primary);
+    display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 20px 10px;
-	text-decoration: none;
 	color: rgba(var(--i1d,38,38,38),1);
+	border: 1px solid var(--border);
 }
-.signUp a
+.signup a
 {
 	text-decoration: none;
 	color: #03a9f4;
-}
-.signUp a:hover
+}	
+.signup a:hover
 {
 	text-decoration: underline;
 }
-.App
+.app
 {
-	font-size: 14px;
-	color: rgba(var(--i1d,38,38,38),1);
-	font-family: sans-serif;
+    text-align: center;
 }
-#logos img
+.app span
 {
-	width: 136px;
-	height: 40px;
+	margin-top: 15px;
+}	
+.app div
+{
+	margin-top: 20px;
 }
-
+.app div img
+{
+	height: 35px;
+}
 .footer
 {
 	width: 100%;
