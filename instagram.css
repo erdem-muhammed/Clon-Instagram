@@ -1,0 +1,162 @@
+*
+{
+	box-sizing: border-box;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+body
+{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(var(--b3f,250,250,250),1);
+}
+.container
+{
+	width: 700px;
+	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.left
+{
+	width: 50%;
+	height: 80%;
+}
+.right
+{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #dbdbdb;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+.right img
+{
+	width: 170px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+.right input
+{
+	width: 85%;
+	height: 50px;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	margin-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	background: rgba(var(--b3f,250,250,250),1);
+}
+.right input:focus
+{
+	top: -20px;
+	left: 0px;
+	font-size: 11px;
+}
+.right button
+{
+	width: 85%;
+	height: 50px;
+	background-color: #4EA5F6;
+	border-radius: 5px;
+	outline: none;
+	color: white;
+	font-weight: bold;
+    border: 1px solid #dbdbdb;
+}
+.right button:hover
+{
+	cursor: pointer;
+}
+.horizontal
+{
+	display: flex;
+}
+.horizontal hr
+{
+	width: 100px;
+	height: 0.5px;
+	
+}
+.horizontal span
+{
+	color: #dbdbdb;
+	margin: 0 20px;
+}
+.Facebook
+{
+	display: flex;
+	justify-content: center;
+}
+.Facebook span a
+{
+	text-decoration: none;
+	margin-right: 10px;
+	font-weight: 500;
+}
+#facebookLogo
+{
+	width: 14px;
+	height: 14px;
+	margin: -2px;
+}
+.Password
+{
+	margin-top: 17px;
+}
+.Password span a
+{
+	text-decoration: none;
+	font-size: 12px;
+}
+.Password span a:hover
+{
+	cursor: pointer;
+}
+.signup
+{
+	width: 50%;
+	height: 50px;
+	background-color: background: rgba(var(--b3f,250,250,250),1);
+	text-align: center;
+	padding: 20px 10px;
+	text-decoration: none;
+	color: rgba(var(--i1d,38,38,38),1);
+}
+.signUp a
+{
+	text-decoration: none;
+	color: #03a9f4;
+}
+.signUp a:hover
+{
+	text-decoration: underline;
+}
+.App
+{
+	font-size: 14px;
+	color: rgba(var(--i1d,38,38,38),1);
+	font-family: sans-serif;
+}
+#logos img
+{
+	width: 136px;
+	height: 40px;
+}
+
+.footer
+{
+	width: 100%;
+	height: 20%;
+	background-color: yellow;
+}
