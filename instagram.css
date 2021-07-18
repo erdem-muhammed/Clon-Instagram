@@ -35,6 +35,12 @@ body
 {
 	height: 550px;
 }
+@media (max-width: 875px)
+{
+	.left{
+		display:none;
+	}
+}
 .gesamtBox
 {
 	height: 675px;
@@ -204,3 +210,6 @@ body
 {
 	font-size: 12px;
 }
+
+
+  
